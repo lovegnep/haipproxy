@@ -2,8 +2,8 @@
 We use this validator to filter ip that can access mobile zhihu website.
 """
 from config.settings import (
-    TEMP_ZHIHU_QUEUE, VALIDATED_ZHIHU_QUEUE,
-    TTL_ZHIHU_QUEUE, SPEED_ZHIHU_QUEUE)
+    TEMP_WCGROUP_QUEUE, VALIDATED_WCGROUP_QUEUE,
+    TTL_WCGROUP_QUEUE, SPEED_WCGROUP_QUEUE)
 from ..redis_spiders import ValidatorRedisSpider
 from .base import BaseValidator
 
