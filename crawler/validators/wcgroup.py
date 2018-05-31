@@ -18,4 +18,4 @@ class WcGroupValidator(BaseValidator, ValidatorRedisSpider):
     score_queue = VALIDATED_WCGROUP_QUEUE
     ttl_queue = TTL_WCGROUP_QUEUE
     speed_queue = SPEED_WCGROUP_QUEUE
-    success_key = '爬虫'
+    success_key = '个人微信'

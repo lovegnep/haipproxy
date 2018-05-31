@@ -768,7 +768,7 @@ VALIDATOR_TASKS = [
         'name': 'wcgroup',
         'task_queue': TEMP_WCGROUP_QUEUE,
         'resource': VALIDATED_WCGROUP_QUEUE,
-        'interval': 5,
+        'interval': 1,
         'enable': 1,
     },
 ]
